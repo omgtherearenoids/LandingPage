@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
+*{
+    font-family: 'Roboto';
+    padding:0;
+    margin:0;
+}
+
+
+
+/*contianer*/
+.top{
+    
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#headerLogo{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+
+.top h2{
+
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+
+}
+
+.top span{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+
+
+/*first section - navbar*/
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: #1f2937;
+    align-items: center;
+    padding: 20px 0px 20px 100px;
+}
+
+.navbar #headerLogo{
+    display: block;
+    padding-left: 50px;
+    
+}
+
+.navbar .nav{
+    display: flex;
+    margin-left: auto;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 200px;
+}
+
+.rest{
+    padding: 20px;
+}
+
+
+
+
+/* second section*/
+
+.bottomhalf{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 50px;
+    padding-bottom: 150px;
+
+}
+
+.bottomhalf .content1{
+
+    padding: 20px;
+    width: 500px;
+    padding-right: 120px;
+
+}
+
+.signUp1{
+
+    margin-top: 10px;
+    width: 100px;
+    height: 35px;
+    padding: 6px 20px;
+    background-color: #3882f6;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    font-size: 14px;
+
+}
+
+
+/* third section*/
+
+.middleTop{
+    margin-bottom: 150px;
+}
+
+h3{
+
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    
+
+}
+
+.fourbox{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #1f2937;
+
+}
+
+.fourbox img{
+
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+
+}
+
+.fourbox div{
+    margin: 20px;
+}
+
+
+/* fourth section  "QUOTE"*/
+
+.quote{
+    background-color: #e5e7eb;
+    height: 350px;
+    padding: 20px;
+    padding-left: 200px;
+    
+}
+
+.quote .quoteContent{
+
+    font-style: italic;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+    
+}
+
+.quote .person{
+
+    font-weight: bold;
+    font-size: 30px;
+    color: #1f2937;
+    margin-left: 1300px;
+    
+}
+
+.cont{
+
+    padding: 130px;
+
+}
+
+
+/* fifth section  button*/
+
+.bot{
+
+
+    padding: 150px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.bot .blueBox{
+
+    background-color: #3882f6;
+    width: 1000px;
+    border-radius: 10px;
+    padding: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+h4{
+
+    color: #e5e7eb;
+    font-size: 24px;
+
+}
+
+.blueBox .words{
+
+   justify-content: flex-start;
+    
+
+}
+
+.blueBox .but{
+
+    margin-left: 250px;
+    
+    
+
+}
+
+.signUp2{
+
+    margin-top: 10px;
+    width: 100px;
+    height: 35px;
+    padding: 6px 20px;
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    font-size: 14px;
+    border-color: white;
+
+}
+
+
+/* footer section */
+
+.footer{
+
+    background-color: #1f2937;
+    padding: 40px;
+    text-align: center;
+
+}

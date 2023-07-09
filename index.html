@@ -3,67 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+    <!-- whole Container in flexbox -->
     <div class="top">
 
+        <!-- NAVBAR -->
         <div class="navbar">
-            <span>Header Logo</span>
-            <span>header link one</span>
-            <span>header link two</span>
-            <span>header link three</span>
+            <span id="headerLogo">Header Logo</span>
+            <div class="nav">
+                <span class="rest">Home</span>
+                <span class="rest">About</span>
+                <span class="rest">Contact</span>
+            </div>
         </div>
 
+
+
+    <!-- Second Section ---After NavBar -->
+        <div class="bottomhalf">
         <div class="content1">
-            <h2>This Website is awesome</h2>
+            <h2>This website is awesome</h2>
             <span>This website has some subtext that goes under the main title. It's a smaller
                 font and the color is lower in context
             </span>
+            <br>
             <button class="signUp1">Sign up</button>
         </div>
 
         <div class="image">
-            <span>this is a placeholder for an image</span>
+            <img src="images/18.jpg" alt="aoi" style="height: 350px; width: 500px;">
+        </div>
         </div>
     
-    </div>
+    
 
-
+    <!-- Third Section-->
     <div class="middleTop">
-        <h3>Some Random information</h3>
+        <h3>Designs</h3>
         <div class="fourbox">
-            <div class="box1">This is some subtext under an illustration or image</div>
-            <div class="box2">This is some subtext under an illustration or image</div>
-            <div class="box3">This is some subtext under an illustration or image</div>
-            <div class="box4">This is some subtext under an illustration or image</div>
+            <div class="box1"><img src="images/killer_queen_wallpaper_by_tenopis_dcqgep6-pre.jpg" alt="aoi">
+                <p>Design 1</p></div>
+            <div class="box2"><img src="images/360_F_468546029_c6EXwQLRIZXbX4ZopHRO2b7FrPAtCnAB.jpg" alt="aoi">
+                <p>Design 2</p></div>
+            <div class="box3"><img src="images/desktop-wallpaper-the-cute-pink-sakura-pattern-pink-flower-aesthetic-anime.jpg" alt="aoi">
+                <p>Design 3</p></div>
+            <div class="box4"><img src="images/seamless-pattern-with-cartoon-kawaii-sushi-and-rolls-cute-anime-print-for-phone-case-backgrounds-fashion-wrapping-paper-and-textile-illustration-vector.jpg" alt="aoi">
+                <p>Design 4</p></div>
         </div>
     </div>
 
+    <!-- Fourth Section QUOTE SECTION-->
     <div class="quote">
 
-        <span class="quoteContent">This is an inspiring quote, or a testimonial from a customer.
+        <div class="cont">
+
+            <span class="quoteContent">This is an inspiring quote, or a testimonial from a customer.
             Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that
             it looks nice.
-        </span>
+            </span>
+            <br>
+            <span class="person">-Queen</span>
 
-        <span class="person">-Thor, God of Thunder</span>
-
-    </div>
-
-
-    <div class="bot">
-        <div class="blueBox">
-            <h5>Call to action! It's time!</h5>
-            <span>Sing up for our product by clicking that button right over there!</span>
-            <button class="signUp2">Sign up</button>
         </div>
     </div>
 
+    <!-- fifth Section button SECTION-->
+    <div class="bot">
+        <div class="blueBox">
+            <div class="words">
+                <h4>Call to action! It's time!</h4>
+                <span>Sing up for our product by clicking that button right over there!</span>
+            </div>
 
+            <div class="but">
+                <button class="signUp2">Sign up</button>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- final Section button SECTION-->
     <div class="footer">
         <span>Copyright</span>
     </div>
+
+</div>
 
     
 </body>
